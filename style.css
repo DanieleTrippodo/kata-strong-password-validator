@@ -1,30 +1,57 @@
 body {
+    display: flex;
+    background-color: gainsboro;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 3rem;
+  }
+
+  .centered{
+    width: 50rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-items: center;
+    background-color: white;
+    border-radius: 3rem;
+  }
+
+  .InfoRequired{
+    color: gray;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    font-size: 11px;
   }
   
   #password {
-    width: 30%;
+    width: 25rem;
     padding: 10px;
     font-size: 16px;
+    border-radius: 1rem;
   }
   
   #password-strength {
-    width: 31.5%;
+    width: 25.9rem;
     height: 10px;
     background-color: #ddd;
     margin-top: 10px;
+    border-radius: 1rem;
   }
   
   #strength-bar {
     height: 10px;
     width: 0%;
+    border-radius: 1rem;
     background-color: green;
   }
   
   #password-requirements {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   #password-requirements li {

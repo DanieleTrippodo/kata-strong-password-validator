@@ -29,21 +29,26 @@
     '---'           `--`---'     ---`-'               -->
     <!-- -main-------------------------------------------------- -->
     <main>
-        <h1>Verifica la tua Password</h1>
-        <input type="password" id="password" placeholder="Inserisci la tua password">
+        <div class="centered">
+            <h1>Verifica la tua Password</h1>
+            <input type="password" id="password" placeholder="Inserisci la tua password">
 
-        <!-- Barra di sicurezza della password -->
-        <div id="password-strength">
-            <div id="strength-bar"></div>
+            <!-- Barra di sicurezza della password -->
+            <div id="password-strength">
+                <div id="strength-bar"></div>
+            </div>
+
+
+            <p class="InfoRequired">Requisiti Obbligatori</p>
+            
+            <!-- Lista dei requisiti -->
+            <ul id="password-requirements">
+                <li id="length">Almeno 9 caratteri</li>
+                <li id="uppercase">Almeno una lettera maiuscola</li>
+                <li id="number">Almeno un numero</li>
+                <li id="special">Almeno un carattere speciale</li>
+            </ul>
         </div>
-
-        <!-- Lista dei requisiti -->
-        <ul id="password-requirements">
-            <li id="length">Almeno 9 caratteri</li>
-            <li id="uppercase">Almeno una lettera maiuscola</li>
-            <li id="number">Almeno un numero</li>
-            <li id="special">Almeno un carattere speciale</li>
-        </ul>
     </main>                                                                
     <!-- -main-------------------FINE--------------------------- -->
 
