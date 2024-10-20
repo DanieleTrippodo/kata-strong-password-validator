@@ -4,36 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validazione Password</title>
+
+    <!-- Collegamento foglio di stile Style.css -->
+     <link rel="stylesheet" href="style.css">
 </head>
 
 
 
 <body>
-                                                                     
-                                                                     
-    <!--    ,--,                                                     
-          ,--.'|                                                     
-       ,--,  | :                            ,---,                    
-    ,---.'|  : '                          ,---.'|            __  ,-. 
-    |   | : _' |                          |   | :          ,' ,'/ /| 
-    :   : |.'  |   ,---.     ,--.--.      |   | |   ,---.  '  | |' | 
-    |   ' '  ; :  /     \   /       \   ,--.__| |  /     \ |  |   ,' 
-    '   |  .'. | /    /  | .--.  .-. | /   ,'   | /    /  |'  :  /   
-    |   | :  | '.    ' / |  \__\/: . ..   '  /  |.    ' / ||  | '    
-    '   : |  : ;'   ;   /|  ," .--.; |'   ; |:  |'   ;   /|;  : |    
-    |   | '  ,/ '   |  / | /  /  ,.  ||   | '/  ''   |  / ||  , ;    
-    ;   : ;--'  |   :    |;  :   .'   \   :    :||   :    | ---'     
-    |   ,/       \   \  / |  ,     .-./\   \  /   \   \  /           
-    '---'         `----'   `--`---'     `----'     `----'          --> 
-    <!-- -header-------------------------------------------------- -->
-    <header>
-        <!-- Qui va il contenuto -->
-    </header>                                                                
-    <!-- -header-------------------FINE--------------------------- -->
-
-
-
-                                                                                                                                                                                       
+                                                                                                                                                                                  
     <!--      ____                                    
             ,'  , `.                                  
          ,-+-,.' _ |              ,--,                
@@ -50,11 +29,25 @@
     '---'           `--`---'     ---`-'               -->
     <!-- -main-------------------------------------------------- -->
     <main>
-        <!-- Qui va il contenuto -->
+        <h1>Verifica la tua Password</h1>
+        <input type="password" id="password" placeholder="Inserisci la tua password">
+
+        <!-- Barra di sicurezza della password -->
+        <div id="password-strength">
+            <div id="strength-bar"></div>
+        </div>
+
+        <!-- Lista dei requisiti -->
+        <ul id="password-requirements">
+            <li id="length">Almeno 9 caratteri</li>
+            <li id="uppercase">Almeno una lettera maiuscola</li>
+            <li id="number">Almeno un numero</li>
+            <li id="special">Almeno un carattere speciale</li>
+        </ul>
     </main>                                                                
     <!-- -main-------------------FINE--------------------------- -->
 
-
-    
+    <!-- Collegamento con il file script Javascript -->
+     <script src="script.js"></script>
 </body>
 </html>
